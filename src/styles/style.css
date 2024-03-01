@@ -152,7 +152,7 @@ section {
 .home-content p {
     position: relative;
     font-size: 1.3rem;
-    margin: 2rem 0 2rem;
+    margin: 2rem 0 1rem;
     text-shadow: 2px 2px 4px var(--main-color);
 }
 
