@@ -89,9 +89,10 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("../assets/images/me-home.jpg") no-repeat;
-    background-size: cover; 
-    background-position: center;
+    /*
+    background: url("../assets/images/me.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;*/
 }
 
 .home-content {
@@ -175,7 +176,7 @@ section {
     background: var(--main-color);
     border: .2rem solid var(--main-color);
     border-radius: .8rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: .1rem;
     color: var(--bg-color);
