@@ -312,16 +312,7 @@ span {
     color: var(--main-color);
 }
 
-.about-shadow{
-    position: absolute;
-    width: 250px;
-    height: 300px;
-    background: rgba(0, 0, 0, 0.519);
-    border-right: 4px solid var(--main-color);
-    border-left: 4px solid var(--main-color);
-    transition: background .4s;
-    z-index: -1;
-}
+
 
 .geometric-box{
     position: absolute;
@@ -362,18 +353,6 @@ span {
     width: 50%;
     border-radius: 5%;
     border: .2rem solid var(--main-color);
-}
-
-.about-img .circle-spin {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(0);
-    width: 85%;
-    height: 85%;
-    border-radius: 50%;
-    border-top: .3rem solid var(--text-color);
-    animation: aboutSpinner 3s linear infinite;
 }
 
 .about-content {
@@ -603,7 +582,7 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 15%;
+    width: 50%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
