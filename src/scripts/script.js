@@ -11,7 +11,6 @@ menuIcon.onclick = () => {
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
-
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
@@ -35,7 +34,6 @@ window.onscroll = () => {
         }
     });
 
-
     // sticky header
     let header = document.querySelector('header');
 
@@ -50,7 +48,6 @@ window.onscroll = () => {
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
-
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     event.preventDefault();

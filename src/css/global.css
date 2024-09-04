@@ -40,17 +40,6 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-.heading {
-    position: relative;
-    font-size: 5rem;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-span {
-    color: var(--main-color);
-}
-
 /* Keyframes Animation */
 @keyframes homeBgText {
     0%, 10%, 100% {
