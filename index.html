@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Responsive Personal Portfolio</title>
 
-    <link rel="stylesheet" href="src/styles/style.css">
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="src/assets/images/logo002-favicon.png" type="image/x-icon">
 
-    <!-- box icons -->
+    <!-- Box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--CSS styles -->
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/components/header.css">
+    <link rel="stylesheet" href="src/css/components/home.css">
+    <link rel="stylesheet" href="src/css/components/about.css">
+    <link rel="stylesheet" href="src/css/components/education.css">
+    <link rel="stylesheet" href="src/css/components/skills.css">
+    <link rel="stylesheet" href="src/css/components/contact.css">
+    <link rel="stylesheet" href="src/css/components/footer.css">
+    <link rel="stylesheet" href="src/css/components/animation.css">
+
+    <!-- SCRIPT.js -->
+    <script src="src/scripts/script.js" defer></script>
 
 </head>
 <body>
     <!-- header design -->
     <header class="header">
-        <a href="#" class="logo">pLogicador. <span class="animate" style="--i:1;"></span></a>
+        <a href="#" class="logo">
+            <!--<img src="src/assets/images/logo002.png" alt="Chanel Logo" class="logo-image"> -->
+            pLogicador. <span class="animate" style="--i:1;"></span>
+        </a>
 
         <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
@@ -56,6 +74,7 @@
         </div>
 
         <div class="home-sci">
+            <a href="https://www.youtube.com/@pLogicador" target="_blank"><i class='bx bxl-youtube'></i></a>
             <a href="https://github.com/pLogicador" target="_blank"><i class='bx bxl-github' ></i></a>
             <a href="https://discord.gg/AYbT5hcb4s" target="_blank"><i class='bx bxl-discord-alt' ></i></a>
             <a href="https://www.linkedin.com/in/pedroesm/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
@@ -368,6 +387,5 @@
         </div>
     </footer>
 
-    <script src="src/scripts/script.js"></script>
 </body>
 </html>
