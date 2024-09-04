@@ -23,16 +23,6 @@
     font-size: 3rem;
     color: var(--second-bg-color);
     font-weight: 600;
-    align-items: center;
-    text-decoration: none;
-    display: flex;
-}
-
-.logo-image {
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-    object-fit: cover;
 }
 
 .navbar {
