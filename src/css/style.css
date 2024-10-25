@@ -34,6 +34,10 @@ b{
     color: orangered;
 }
 
+a.link-about {
+    color: red;
+}
+
 a.link-projects {
     color: #ffffff; 
 }
