@@ -38,12 +38,44 @@ a.link-about {
     color: red;
 }
 
+a.link-about:hover {
+    color: white;
+}
+
 a.link-projects {
     color: #ffffff; 
 }
 
 a.link-projects:hover {
     color: #8e8e8e;
+}
+
+span.s-p-text {
+    color: white; 
+    transition: all 0.3s ease; 
+  }
+  
+span.s-p-text:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 5px #ff0080;
+    cursor: pointer;
+}
+
+.bx.bxs-graduation {
+    padding-left: 1rem;
+    font-size: 3rem;
+    color: #ff8c00;
+    align-items: center;
+    justify-content: center;
+}
+
+.bx.bxs-briefcase {
+    padding-left: 1rem;
+    font-size: 3rem;
+    color: #ff8c00;
+    align-items: center;
+    justify-content: center;
 }
 
 section {
@@ -75,7 +107,7 @@ section {
 .logo {
     position: relative;
     font-size: 2.5rem;
-    color: var(--second-bg-color);
+    color: var(--text-color);
     font-weight: 600;
 }
 
@@ -109,17 +141,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 9%;
-    background: url("../assets/images/me.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.home {
-    background-size: 50%;
-    background-position: left center;
+    padding: 0 19%;
+    background: url("../assets/images/logo002-favicon.png") no-repeat;
+    background-size: 25%;
+    background-position: 15% center;
     border-bottom: 1px solid white;
-    background-size: contain; 
+    z-index: 1;
 }
 
 .home-content {
@@ -142,18 +169,18 @@ section {
 
 .home-content .text-animate {
     position: relative;
-    width: 32.8rem;
+    width: 26.8rem; 
 }
 
 .home-content .text-animate h3 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     font-weight: 900;
-    color: transparent; 
+    color: transparent;
     -webkit-text-stroke: 1.2px var(--bg-color);
-    background-image: linear-gradient(#02f7ff 50%, #ff0000, black);
+    background-image: linear-gradient(90deg, #ff8c00, #ff0080);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -33rem 0;
+    background-position: -27rem 0; 
 }
 
 .home.show-animate .home-content .text-animate h3 {
@@ -251,6 +278,7 @@ section {
     width: 170px;
     display: flex;
     justify-content: space-between;
+    padding: 0 0 1rem 0;
 }
 
 .home-sci a {
@@ -599,85 +627,107 @@ span {
 
 /*progress coding skills*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 55%;
+    width: 40%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
     width: 60%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
     width: 55%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 60%;
+    width: 40%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
     width: 55%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
-    width: 65%;
+    width: 25%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
     width: 65%;
 }
-
 .skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
     width: 55%;
 }
 
-/*progress professional skills*/
+/*frameworks & tools skills*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 30%;
+    width: 25%;
 }
-
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 30%;
+    width: 25%;
 }
-
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 30%;
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 15%;
 }
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
-    width: 55%;
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+    width: 30%;
 }
-
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 45%;
+}
 .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
+    width: 25%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
     width: 40%;
 }
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
+.skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span {
+    width: 15%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(9) .bar span {
+    width: 15%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(10) .bar span {
+    width: 25%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(11) .bar span {
+    width: 45%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(12) .bar span {
     width: 25%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span {
+/*professional & technical skills*/
+.skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
+    width: 30%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span {
+    width: 30%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
     width: 45%;
 }
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(9) .bar span {
-    width: 55%;
+.skills-column:nth-child(3) .skills-content .progress:nth-child(4) .bar span {
+    width: 45%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(5) .bar span {
+    width: 10%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(6) .bar span {
+    width: 15%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(10) .bar span {
-    width: 56%;
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(11) .bar span {
+/*database & storage skills*/
+.skills-column:nth-child(4) .skills-content .progress:nth-child(1) .bar span {
     width: 40%;
 }
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(12) .bar span {
-    width: 55%;
+.skills-column:nth-child(4) .skills-content .progress:nth-child(2) .bar span {
+    width: 25%;
 }
+.skills-column:nth-child(4) .skills-content .progress:nth-child(3) .bar span {
+    width: 15%;
+}
+
+/*development % agile process skills*/
+.skills-column:nth-child(5) .skills-content .progress:nth-child(1) .bar span {
+    width: 40%;
+}
+.skills-column:nth-child(5) .skills-content .progress:nth-child(2) .bar span {
+    width: 10%;
+}
+
 
 /* contact */
 .contact {
@@ -868,10 +918,10 @@ section:nth-child(odd) .animate.scroll,
 /* Keyframes Animation */
 @keyframes homeBgText {
     0%, 10%, 100% {
-        background-position: -33rem 0;
+        background-position: -27rem 0;
     }
 
-    65%, 85% {
+    65%, 78%, 85% {
         background-position: 0 0;
     }
 }
@@ -886,7 +936,7 @@ section:nth-child(odd) .animate.scroll,
         opacity: 1;
     }
 
-    75%, 81% {
+    85% {
         opacity: 0;
     }
 }
@@ -995,6 +1045,11 @@ section:nth-child(odd) .animate.scroll,
         pointer-events: none;
         background: var(--bg-color);
         opacity: .6;
+    }
+
+    .home {
+        background-size: 60%;
+        background-position: center;
     }
 }
 
