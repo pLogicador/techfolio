@@ -953,6 +953,12 @@ section:nth-child(odd) .animate.scroll,
 }
 
 /* Breakpoints */
+@media (orientation: landscape) and (pointer: coarse) {
+    .home-sci {
+        display: none; 
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -1050,11 +1056,13 @@ section:nth-child(odd) .animate.scroll,
         opacity: .6;
     }
 
+    
     .home {
         background-size: 60%;
         background-position: center;
         justify-content: left;
     }
+    
 
     .home-content {
         margin-top: 3.5rem;
@@ -1070,6 +1078,7 @@ section:nth-child(odd) .animate.scroll,
         margin-bottom: 2rem;
         margin-right: 5rem;
     }
+    
 }
 
 @media (max-width: 520px) {
