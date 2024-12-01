@@ -213,6 +213,8 @@ img {
 .home__container {
     height: calc(100vh - var(--header-height));
     align-items: center;
+    height: auto;
+    overflow: hidden;
 }
 
 .home__data {
@@ -224,6 +226,7 @@ img {
 }
 
 .home__img {
+    margin-top: 1rem;
     width: 160px;
     height: 160px;
     background: black;
@@ -744,8 +747,16 @@ img {
 
 /*=== MEDIA QUERIES ===*/
 @media screen and (min-width: 768px) {
+    
     .home__button {
-        width: initial;
+        /*width: initial;*/
+        width: auto; 
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .home__data {
+        padding: 1rem;
     }
 
     .nav__menu {
