@@ -338,7 +338,7 @@ img {
 }
 
 .about__description {
-    margin-bottom: var(--mb-4);
+    margin-top: var(--mb-4);
 }
 
 .about__img {
