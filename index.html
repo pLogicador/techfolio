@@ -1,487 +1,635 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- === CSS === -->
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/styles.css" />
     <!-- === BOX ICONS === -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- === JS === -->
     <script src="src/js/main.js" defer></script>
 
-    <title>My Personal Portfolio</title>
-</head>
-<body>
+    <title>Meu Portfólio Pessoal</title>
+  </head>
+  <body>
     <!-- === HEADER === -->
-     <header class="l-header">
-        <nav class="nav bd-grid">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
 
-            <div>
-                <a href="#" class="nav__logo">pLogicador</a>
-            </div>
+        <div>
+          <a href="#" class="nav__logo">pLogicador</a>
+        </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x'></i>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
 
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
-                    <!-- <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li> -->
-                    <li class="nav__item"><a href="#works" class="nav__link">My Works</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
-     </header>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Início</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre Mim</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Minhas Habilidades</a>
+            </li>
+            <!-- <li class="nav__item"><a href="#services" class="nav__link">Meus Serviços</a></li> -->
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Meus Projetos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <main class="l-main">
-        <!--=== HOME ===-->
-        <section class="home" id="home">
-            <div class="home__container bd-grid">
-                <div class="home__data">
-                    <div class="home__img">
-                        <img src="src/assets/images/logo.png" alt="">
-                    </div>
-
-                    <h1 class="home__title">Pedro Miranda</h1>
-                    <div class="container-typewriter">
-                        <p class="text home__profession"> </p>
-                    </div>
-
-                    <div class="home__social">
-                        <a target="_blank" href="https://www.linkedin.com/in/pedroesm/" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
-                        <a target="_blank" href="https://github.com/pLogicador" class="home__social-link"><i class='bx bxl-github'></i></a>
-                        <!-- more -->
-                    </div>
-
-                    <a download="" href="src/assets/documents/CVforback.pdf" class="button home__button">Download Resume</a>
-                </div>
+      <!--=== HOME ===-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img src="src/assets/images/logo.png" alt="" />
             </div>
-            
-        </section>
 
-        <!--=== ABOUT ===-->
-        <section class="about section" id="about">
-            <span class="section-subtitle">My intro</span>
-            <h2 class="section-title">About <span>Me</span> </h2>
+            <h1 class="home__title">Pedro Miranda</h1>
+            <div class="container-typewriter">
+              <p class="text home__profession"></p>
+            </div>
 
-            <div class="about__container bd-grid">
-                <div class="about__data">
-                    <img src="src/assets/images/photo-personal.jpeg" alt="" class="about__img">
-                    <p class="about__description">Passionate backend developer with a solid foundation in Java, Node.js, TypeScript, and Python. Currently studying Data Science at Mackenzie University, with experience in building scalable and modular RESTful APIs, database management (SQL and NoSQL), and utilizing frameworks like Spring Boot and NestJS. Enthusiastic about continuous learning and exploring new technologies to develop efficient solutions.</p>
-                </div>
+            <div class="home__social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/plogicador/"
+                class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador"
+                class="home__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <!-- mais -->
+            </div>
 
+            <a
+              download=""
+              href="src/assets/documents/CVforback.pdf"
+              class="button home__button"
+              >Baixar Currículo</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--=== SOBRE ===-->
+      <section class="about section" id="about">
+        <span class="section-subtitle">Minha introdução</span>
+        <h2 class="section-title">Sobre <span>mim</span></h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <img
+              src="src/assets/images/photo-personal.jpeg"
+              alt=""
+              class="about__img"
+            />
+            <p class="about__description">
+              Desenvolvedor backend apaixonado com sólida base em Java, Node.js,
+              TypeScript e Python. Atualmente estudando Ciência de Dados na
+              Universidade Mackenzie, com experiência em construção de APIs
+              RESTful escaláveis e modulares, gerenciamento de bancos de dados
+              (SQL e NoSQL) e utilização de frameworks como Spring Boot e
+              NestJS. Entusiasta de aprendizado contínuo e exploração de novas
+              tecnologias para desenvolver soluções eficientes.
+            </p>
+          </div>
+
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Informações</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-user-circle about__information-icon"></i>
+                <span>Pedro Emanuel Silva Miranda</span>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-phone about__information-icon"></i>
+                <span>+55 75 99715-8826</span>
+              </div>
+              <div class="about__information-data">
+                <i class="bx bx-envelope about__information-icon"></i>
+                <span>pedroemanuelsm0@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="about__information">
+              <h3 class="about__information-title">Experiência</h3>
+
+              <div class="about__information-data">
+                <i class="bx bx-time about__information-icon"></i>
                 <div>
-                    <div class="about__information">
-                        <h3 class="about__information-title">Information</h3>
-    
-                        <div class="about__information-data">
-                            <i class='bx bx-user-circle about__information-icon' ></i>
-                            <span>Pedro Emanuel Silva Miranda</span>
-                        </div>
-    
-                        <div class="about__information-data">
-                            <i class='bx bx-phone about__information-icon' ></i>
-                            <span>+55 75 99715-8826</span>
-                        </div>
-                        <div class="about__information-data">
-                            <i class='bx bx-envelope about__information-icon' ></i>
-                            <span>pedroemanuelsm0@gmail</span>
-                        </div>
-                    </div>
-    
-                    <div class="about__information">
-                        <h3 class="about__information-title">Experience</h3>
-    
-                        <div class="about__information-data">
-                            <i class='bx bx-time about__information-icon' ></i>
-                            <div>
-                                <span class="about__information-subtitle">5 years</span>
-                                <span class="about__information-subtitle-small">Programming Experience</span>
-                            </div>
-                        </div>
-                        <div class="about__information-data">
-                            <i class='bx bx-briefcase about__information-icon' ></i>
-                            <div>
-                                <span class="about__information-subtitle">35+ Projects</span>
-                                <span class="about__information-subtitle-small">Showcased on GitHub</span>
-                            </div>
-                        </div>
-                        <div class="about__information-data">
-                            <i class='bx bx-cube about__information-icon' ></i>
-                            <div>
-                                <span class="about__information-subtitle">Consistent Learning</span>
-                                <span class="about__information-subtitle-small">With Modern Technologies</span>
-                            </div>
-                        </div>
-                        <!-- more -->
-                    </div>
+                  <span class="about__information-subtitle">5 anos</span>
+                  <span class="about__information-subtitle-small"
+                    >de experiência em programação</span
+                  >
                 </div>
+              </div>
+              <div class="about__information-data">
+                <i class="bx bx-briefcase about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">35+ Projetos</span>
+                  <span class="about__information-subtitle-small"
+                    >Disponíveis no GitHub</span
+                  >
+                </div>
+              </div>
+              <div class="about__information-data">
+                <i class="bx bx-cube about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle"
+                    >Aprendizado Contínuo</span
+                  >
+                  <span class="about__information-subtitle-small"
+                    >com Tecnologias Modernas</span
+                  >
+                </div>
+              </div>
+              <!-- mais -->
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!--=== SKILLS ===-->
-        <section class="skills section" id="skills">
-            <span class="section-subtitle">Why Choose Me</span>
-            <h2 class="section-title">My <span>expertise Area</span> </h2>
+      <!--=== HABILIDADES ===-->
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">Por que me escolher</span>
+        <h2 class="section-title">Minha <span>Expertise</span></h2>
 
-            <div class="skills__container bd-grid">
-                <div class="skills__content">
-                    <h3 class="skills__subtitle">Frontend</h3>
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
 
-                    <div class="skills__data">
-                        <span class="skills__name">Html/css</span>
-                        <span class="skills__number">80%</span>
-                        <span class="skills__bar skills__html"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">JavaScript</span>
-                        <span class="skills__number">45%</span>
-                        <span class="skills__bar skills__js"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">React</span>
-                        <span class="skills__number">35%</span>
-                        <span class="skills__bar skills__react"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">NextJS</span>
-                        <span class="skills__number">45%</span>
-                        <span class="skills__bar skills__nextjs"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Webpack/Babel</span>
-                        <span class="skills__number">50%</span>
-                        <span class="skills__bar skills__webbabel"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Bootstrap</span>
-                        <span class="skills__number">30%</span>
-                        <span class="skills__bar skills__bootstrap"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">UI/UX</span>
-                        <span class="skills__number">45%</span>
-                        <span class="skills__bar skills__uiux"></span>
-                    </div>
-                    <!-- more -->
-                </div>
-                
-                <div class="skills__content">
-                    <h3 class="skills__subtitle">Backend</h3>
-
-                    <div class="skills__data">
-                        <span class="skills__name">TypeScript</span>
-                        <span class="skills__number">40%</span>
-                        <span class="skills__bar skills__ts"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">NodeJS</span>
-                        <span class="skills__number">45%</span>
-                        <span class="skills__bar skills__nodejs"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Java</span>
-                        <span class="skills__number">35%</span>
-                        <span class="skills__bar skills__java"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">NestJS</span>
-                        <span class="skills__number">35%</span>
-                        <span class="skills__bar skills__nestjs"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Spring Boot</span>
-                        <span class="skills__number">25%</span>
-                        <span class="skills__bar skills__springboot"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">JDBC</span>
-                        <span class="skills__number">30%</span>
-                        <span class="skills__bar skills__jdbc"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">SQL</span>
-                        <span class="skills__number">45%</span>
-                        <span class="skills__bar skills__sql"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">NoSQL</span>
-                        <span class="skills__number">25%</span>
-                        <span class="skills__bar skills__nosql"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">TypeORM</span>
-                        <span class="skills__number">35%</span>
-                        <span class="skills__bar skills__typeorm"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">API Development (RESTful)</span>
-                        <span class="skills__number">40%</span>
-                        <span class="skills__bar skills__nosql"></span>
-                    </div>
-                    <!-- more -->
-                </div>
+            <div class="skills__data">
+              <span class="skills__name">HTML/CSS</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__html"></span>
             </div>
-        </section>
-
-        <!--=== EDUCATION ===-->
-        <section class="education section">
-            <span class="section-subtitle">Certifications</span>
-            <h2 class="section-title">My <span>Academic Journey</span> </h2>
-
-            <div class="education__container bd-grid">
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2021 - 2023</h3>
-                        <span class="education__university">Unopar University</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">Diploma in Web Development</h3>
-                        <span class="education__especialty">Web Full-Stack Development</span>
-                    </div>
-                </div>
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2024 - August</h3>
-                        <span class="education__university">Udemy</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">Java COMPLETO Programação Orientada a Objetos + Projetos</h3>
-                        <span class="education__especialty">Object-Oriented Programming, Web Services & Spring Boot, Database Integration, Software Design, Application Development, Testing & Best Practices</span>
-                    </div>
-                </div>
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2024 - November</h3>
-                        <span class="education__university">Udemy</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">Curso de JavaScript e TypeScript do básico ao avançado JS/TS</h3>
-                        <span class="education__especialty">JavaScript & TypeScript, Node.js, Express, APIs RESTful, SQL & NoSQL, React, Redux, JWT, Automated Testing with Jest, Webpack, OOP and SOLID practices</span>
-                    </div>
-                </div>
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2024 - December</h3>
-                        <span class="education__university">Udemy</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">NestJS para REST API com TypeORM, Autenticação JWT e Testes</h3>
-                        <span class="education__especialty">API Development, Authentication & Authorization, Database Integration, Data Validation & Testing, Request Handling</span>
-                    </div>
-                </div>
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2024 - Present</h3>
-                        <span class="education__university">Mackenzie University</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">Bachelor’s Degree in Data Science</h3>
-                        <span class="education__especialty">Machine Learning, Data Analysis</span>
-                    </div>
-                </div>
-                <!-- more -->
+            <div class="skills__data">
+              <span class="skills__name">JavaScript</span>
+              <span class="skills__number">45%</span>
+              <span class="skills__bar skills__js"></span>
             </div>
-
-        </section>
-
-        <!--=== SERVICES ===-->
-        <!--
-        <section class="services section" id="services">
-            <span class="section-subtitle">How I Can Help You</span>
-            <h2 class="section-title">My <span>Services</span> </h2>
-
-            <div class="services__container bd-grid">
-                <div class="services__content">
-                    <i class="bx bx-code services__icon"></i>
-                    <h3 class="services__title">Web Design</h3>
-                    <p class="services__description">Create stunning and responsive websites with a focus on performance, user experience, and modern design practices. From static sites to dynamic platforms, I bring your ideas to life.</p>
-                </div>
-                <div class="services__content">
-                    <i class="bx bx-server services__icon"></i>
-                    <h3 class="services__title">Backend development</h3>
-                    <p class="services__description">Design and implement robust server-side systems, APIs, and databases using technologies like Node.js and Java. Focused on scalability, performance, and secure architecture.</p>
-                </div>
-                <div class="services__content">
-                    <i class="bx bx-cog services__icon"></i>
-                    <h3 class="services__title">DevOps and Cloud Services</h3>
-                    <p class="services__description">Assist with cloud service management, including AWS and Heroku setups. I handle deployment, hosting configuration, and monitoring to ensure reliability and scalability.</p>
-                </div>
-                <div class="services__content">
-                    <i class="bx bx-wrench services__icon"></i>
-                    <h3 class="services__title">Technical Support</h3>
-                    <p class="services__description">Provide troubleshooting and technical assistance for existing systems, ensuring optimal functionality and resolving critical issues in a timely manner.</p>
-                </div>
+            <div class="skills__data">
+              <span class="skills__name">React</span>
+              <span class="skills__number">35%</span>
+              <span class="skills__bar skills__react"></span>
             </div>
+            <div class="skills__data">
+              <span class="skills__name">NextJS</span>
+              <span class="skills__number">45%</span>
+              <span class="skills__bar skills__nextjs"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Webpack/Babel</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__webbabel"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Bootstrap</span>
+              <span class="skills__number">30%</span>
+              <span class="skills__bar skills__bootstrap"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">UI/UX</span>
+              <span class="skills__number">45%</span>
+              <span class="skills__bar skills__uiux"></span>
+            </div>
+          </div>
 
-        </section>
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">TypeScript</span>
+              <span class="skills__number">40%</span>
+              <span class="skills__bar skills__ts"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">NodeJS</span>
+              <span class="skills__number">45%</span>
+              <span class="skills__bar skills__nodejs"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Java</span>
+              <span class="skills__number">35%</span>
+              <span class="skills__bar skills__java"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">NestJS</span>
+              <span class="skills__number">35%</span>
+              <span class="skills__bar skills__nestjs"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">Spring Boot</span>
+              <span class="skills__number">25%</span>
+              <span class="skills__bar skills__springboot"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">JDBC</span>
+              <span class="skills__number">30%</span>
+              <span class="skills__bar skills__jdbc"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">SQL</span>
+              <span class="skills__number">45%</span>
+              <span class="skills__bar skills__sql"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">NoSQL</span>
+              <span class="skills__number">25%</span>
+              <span class="skills__bar skills__nosql"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name">TypeORM</span>
+              <span class="skills__number">35%</span>
+              <span class="skills__bar skills__typeorm"></span>
+            </div>
+            <div class="skills__data">
+              <span class="skills__name"
+                >Desenvolvimento de APIs (RESTful)</span
+              >
+              <span class="skills__number">40%</span>
+              <span class="skills__bar skills__nosql"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=== EDUCAÇÃO ===-->
+      <section class="education section">
+        <span class="section-subtitle">Certificações</span>
+        <h2 class="section-title">Minha <span>Jornada Acadêmica</span></h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2021 - 2023</h3>
+              <span class="education__university">Universidade Unopar</span>
+            </div>
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <div>
+              <h3 class="education__race">Diploma em Desenvolvimento Web</h3>
+              <span class="education__especialty"
+                >Desenvolvimento Web Full-Stack</span
+              >
+            </div>
+          </div>
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2024 - Agosto</h3>
+              <span class="education__university">Udemy</span>
+            </div>
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <div>
+              <h3 class="education__race">
+                Java COMPLETO Programação Orientada a Objetos + Projetos
+              </h3>
+              <span class="education__especialty"
+                >Programação Orientada a Objetos, Web Services & Spring Boot,
+                Integração com Bancos de Dados, Design de Software,
+                Desenvolvimento de Aplicações, Testes & Boas Práticas</span
+              >
+            </div>
+          </div>
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2024 - Novembro</h3>
+              <span class="education__university">Udemy</span>
+            </div>
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <div>
+              <h3 class="education__race">
+                Curso de JavaScript e TypeScript do Básico ao Avançado
+              </h3>
+              <span class="education__especialty"
+                >JavaScript & TypeScript, Node.js, Express, APIs RESTful, SQL &
+                NoSQL, React, Redux, JWT, Testes Automatizados com Jest,
+                Webpack, POO e práticas SOLID</span
+              >
+            </div>
+          </div>
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2024 - Dezembro</h3>
+              <span class="education__university">Udemy</span>
+            </div>
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+            <div>
+              <h3 class="education__race">
+                NestJS para REST API com TypeORM, Autenticação JWT e Testes
+              </h3>
+              <span class="education__especialty"
+                >Desenvolvimento de API, Autenticação & Autorização, Integração
+                de Banco de Dados, Validação de Dados & Testes, Manipulação de
+                Requisições</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=== SERVIÇOS ===-->
+      <section class="services section" id="services">
+        <span class="section-subtitle">Como Posso Ajudar</span>
+        <h2 class="section-title">Meus <span>Serviços</span></h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Design de Sites</h3>
+            <p class="services__description">
+              Criação de sites impressionantes e responsivos com foco em
+              desempenho, experiência do usuário e práticas de design modernas.
+              De sites estáticos a plataformas dinâmicas, transformo suas ideias
+              em realidade.
+            </p>
+          </div>
+          <div class="services__content">
+            <i class="bx bx-server services__icon"></i>
+            <h3 class="services__title">Desenvolvimento Backend</h3>
+            <p class="services__description">
+              Projetar e implementar sistemas robustos, APIs e bancos de dados
+              usando tecnologias como Python, Node.js e Java. Foco em
+              escalabilidade, desempenho e arquitetura segura.
+            </p>
+          </div>
+          <!--
+          <div class="services__content">
+            <i class="bx bx-cog services__icon"></i>
+            <h3 class="services__title">DevOps e Serviços em Nuvem</h3>
+            <p class="services__description">
+              Auxílio no gerenciamento de serviços em nuvem, incluindo
+              configurações AWS e Heroku. Configuro deploy, hospedagem e
+              monitoramento para garantir confiabilidade e escalabilidade.
+            </p>
+          </div>
         -->
-        <!--=== PROJECT IN MIND ===-->
-        <section class="project section">
-            <div class="project__container bd-grid">
-                <div class="project__data">
-                    <h2 class="section-title project__title">Your Vision, My Expertise</h2>
-                    <p class="project__description">Every great project starts with an idea. Let’s discuss how we can bring yours to life. Reach out, and let’s make it happen.</p>
-                    <a href="#contact" class="button button__light">Contact Me</a>
-                </div>
+          <div class="services__content">
+            <i class="bx bx-wrench services__icon"></i>
+            <h3 class="services__title">Suporte Técnico</h3>
+            <p class="services__description">
+              Fornecer suporte técnico e resolução de problemas em sistemas
+              existentes, garantindo funcionalidade ideal e resolução de
+              questões críticas rapidamente.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                <!-- <img src="" alt="" class="project__img"> -->
+      <!--=== PROJETOS EM MENTE ===-->
+      <section class="project section">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">
+              Sua Visão, Minha Expertise
+            </h2>
+            <p class="project__description">
+              Todo grande projeto começa com uma ideia. Vamos conversar sobre
+              como podemos transformá-la em realidade. Entre em contato e vamos
+              fazer acontecer.
+            </p>
+            <a href="#contact" class="button button__light">Contato</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=== TRABALHOS ===-->
+      <section class="works section" id="works">
+        <span class="section-subtitle">Meu portfólio</span>
+        <h2 class="section-title">Trabalhos <span>Recentes</span></h2>
+
+        <div class="works__container bd-grid">
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://www.syncron.pro"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title"
+                >Syncron.pro – Plataforma de Automação</span
+              >
             </div>
-        </section>
+          </div>
 
-        <!--=== WORKS ===-->
-        <section class="works section" id="works">
-            <span class="section-subtitle">My portfolio</span>
-            <h2 class="section-title">Recent <span>Works</span> </h2>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/advanced-sql-mysql-knex"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">SQL Avançado com MySQL e Knex</span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/react-tictactoe-usereducer"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">React Tic Tac Toe com useReducer</span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/react-tictactoe-hooks"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">React Tic Tac Toe (Hooks)</span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/advanced-design-patterns-ts"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title"
+                >Design Patterns Avançados com TypeScript</span
+              >
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/springboot3-jpa-workshop"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">
+                Desenvolvimento de API RESTful com Spring Boot e JPA/Hibernate
+              </span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/springboot-mongodb-workshop"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">API com Spring Boot e MongoDB</span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/javafx-jdbc-workshop"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">JavaFX com JDBC</span>
+            </div>
+          </div>
+          <div class="works__img">
+            <img src="src/assets/images/background-2426328_1280.jpg" alt="" />
+            <div class="works__data">
+              <a
+                target="_blank"
+                href="https://github.com/pLogicador/tetris"
+                class="works__link"
+                ><i class="bx bx-link-alt"></i
+              ></a>
+              <span class="works__title">TETRIS</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="works__container bd-grid">
+      <!--=== CONTATO ===-->
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Contato</span>
+        <h2 class="section-title">Entre <span>em Contato!</span></h2>
 
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/advanced-sql-mysql-knex" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">Advanced SQL with MySQL and Knex</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/react-tictactoe-usereducer" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">React Tic Tac Toe with useReducer</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/react-tictactoe-hooks" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">React Tic Tac Toe (Hooks)</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/advanced-design-patterns-ts" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">Advanced Design Patterns with TypeScript</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/springboot3-jpa-workshop" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">RESTful API Development with Spring Boot and JPA/Hibernate1</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/springboot-mongodb-workshop" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">API Development with Spring Boot and MongoDB</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/javafx-jdbc-workshop" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">JavaFX with JDBC</span>
-                    </div>
-                </div>
-                <div class="works__img">
-                    <img src="src/assets/images/background-2426328_1280.jpg" alt="">
-                    <div class="works__data">
-                        <a target="_blank" href="https://github.com/pLogicador/tetris" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                        <span class="works__title">TETRIS</span>
-                    </div>
-                </div>
-                
-                <!-- more -->
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Nome" class="contact__input" />
+              <input type="mail" placeholder="E-mail" class="contact__input" />
             </div>
 
+            <input type="text" placeholder="Projeto" class="contact__input" />
 
-        </section>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              placeholder="Mensagem"
+              class="contact__input"
+            ></textarea>
 
-        <!--=== CONTACT ===-->
-        <section class="contact section" id="contact">
-            <span class="section-subtitle">Contact Me</span>
-            <h2 class="section-title">Get <span>In Touch!</span> </h2>
-
-            <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                    </div>
-
-                    <input type="text" placeholder="Project" class="contact__input">
-
-                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
-
-                    <input type="submit" value="Send Message" class="button contact__button">
-                </form>
-                <div>
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">Call me</h3>
-                        <span class="contact__text">+55 75 99715-8826</span>
-                    </div>
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">E-mail</h3>
-                        <span class="contact__text">pedroemanuelsm0@gmail.com</span>
-                    </div>
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">Location</h3>
-                        <span class="contact__text">Bahia, Brazil</span>
-                        <span class="contact__text">City: Senhor do Bonfim</span>
-                    </div>
-                </div>
+            <input
+              type="submit"
+              value="Enviar Mensagem"
+              class="button contact__button"
+            />
+          </form>
+          <div>
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Telefone</h3>
+              <span class="contact__text">+55 75 99715-8826</span>
             </div>
-        </section>
-
+            <div class="contact__info">
+              <h3 class="contact__subtitle">E-mail</h3>
+              <span class="contact__text">pedroemanuelsm0@gmail.com</span>
+            </div>
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Localização</h3>
+              <span class="contact__text">Bahia, Brasil</span>
+              <span class="contact__text">Cidade: Senhor do Bonfim</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- === FOOTER === -->
     <footer class="footer section">
-        <div class="footer__container bd-grid">
-            <h1 class="footer__title">&lt;p/log&gt;</h1>
-            <p class="footer__description">I am pLogicador and this is my personal website, consult me here.</p>
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">&lt;p/log&gt;</h1>
+        <p class="footer__description">
+          Eu sou pLogicador e este é meu site pessoal. Consulte-me aqui.
+        </p>
 
-            <div class="footer__social">
-                <a target="_blank" href="https://www.linkedin.com/in/pedroesm/" class="footer__link"><i class='bx bxl-linkedin-square'></i></a>
-                <a target="_blank" href="https://github.com/pLogicador" class="footer__link"><i class='bx bxl-github' ></i></a>
-                <!-- more -->
-            </div>
-
-            <p class="footer__copy">Copyright &copy; All right reserved by pLogicador - 2024 </p>
-
+        <div class="footer__social">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/plogicador/"
+            class="footer__link"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/pLogicador"
+            class="footer__link"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <!-- mais -->
         </div>
+
+        <p class="footer__copy">
+          Copyright &copy; Todos os direitos reservados por pLogicador - 2024
+        </p>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
