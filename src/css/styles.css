@@ -331,6 +331,17 @@ img {
 }
 
 /*=== ABOUT ===*/
+.about__description a {
+  color: var(--main-color);
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+}
+
+.about__description a:hover {
+  color: #ff0080;
+  text-decoration: underline;
+}
+
 .about__container {
   row-gap: 2rem;
 }
@@ -582,7 +593,9 @@ img {
   overflow: hidden;
   border-radius: 0.75rem;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .work-card__img {
@@ -614,7 +627,9 @@ img {
   padding: 0.5rem;
   border-radius: 0.25rem;
   margin-bottom: var(--mb-2);
-  transition: transform 0.3s ease, background 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
 }
 
 .work-card__title {
